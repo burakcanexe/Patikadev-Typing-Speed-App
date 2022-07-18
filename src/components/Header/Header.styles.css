@@ -1,0 +1,35 @@
+header{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: var(--textColor);
+}
+
+.secondBox{
+    background-color: var(--boxBgColor);
+    width: 75px;
+    height: 75px;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.secondBox .secondIcon{
+    position: absolute;
+    left: -1rem;
+    top: -1rem;
+    font-size: 3rem;
+    color: var(--textColor);
+}
+
+.secondBox .secondText{
+    color: white;
+    font-size: 2rem;
+}
+
